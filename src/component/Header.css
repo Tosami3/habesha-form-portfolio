@@ -1,0 +1,15 @@
+.form{
+    text-transform: uppercase;
+    
+    color: bisque;
+}
+
+.container-fluid{
+    height: 50%px;
+    background-color:black;
+
+}
+
+.app{
+    width: 100%;
+}

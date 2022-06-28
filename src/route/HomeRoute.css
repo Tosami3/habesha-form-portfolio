@@ -1,0 +1,81 @@
+.i-card{
+    height: 77vh;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    display: flex;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+    
+}
+.i-card-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.i-card-form{
+    margin-top: 4rem;
+   display: flex; 
+   flex-direction: column;
+   position: relative;
+  width: 400px;
+  height: 300px;
+  transform: scale(0.77);
+  
+}
+
+.i-card-form>:nth-child(1){
+
+color: orchid;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+.i-card-form>:nth-child(2){
+
+    color:black;
+       text-align: center;
+       text-transform: uppercase;
+       font-weight: bold;
+       font-size: 13px;
+       margin-bottom: 1rem;
+    }
+
+    .i-card-form>:nth-child(3){
+
+      color:black;
+         text-align: center;
+         text-transform: uppercase;
+         font-weight: bold;
+         font-size: 13px;
+         margin-bottom: 1rem;
+      }
+    .i-card-form>:nth-child(4){
+      background-color: chartreuse;
+        color: orchid;
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: bold;
+           font-size: 1rem;
+           margin-bottom: 1rem;
+        }
+.i-image{
+   display: contents;
+   
+   
+   flex-wrap: wrap;
+}
+
+.i-image>:nth-child(1){
+     margin-left: 10rem;
+   border: 1px solid olivedrab;
+   background-color: greenyellow;
+   border-radius: 5rem;
+   background-image: url( "https://www.flaticon.com/free-icons/person");
+}
+.i-image>:nth-child(1):hover{
+   
+   
+   border-radius: 5rem;
+   background-image: url( "https://www.flaticon.com/free-icons/person");
+}
